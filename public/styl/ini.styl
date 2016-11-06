@@ -1,0 +1,190 @@
+.block
+	margin 10px 0px
+	border 1px solid gray
+	-webkit-box-shadow 6px 6px 5px 0px rgba(50, 50, 50, 0.75)
+	-moz-box-shadow    6px 6px 5px 0px rgba(50, 50, 50, 0.75)
+	box-shadow         6px 6px 5px 0px rgba(50, 50, 50, 0.75)
+
+.block_pad
+	padding 10px
+
+.title
+	text-align center
+	font-size 24px
+	margin 0px
+	padding 5px
+
+.important_text
+	text-align center
+	font-size f5
+	margin 0px
+	padding 5px
+
+.info_text
+	text-align center
+	font-size f1
+	margin 0px
+	padding 0px
+
+.intro_link
+	float left
+	text-align center
+	margin 10px 1%
+	width 46%
+	padding 10px 1%
+	font-size f4
+	color white
+	background salmon
+	border-radius(5px)
+	&:hover
+		background salmon_dark
+
+.link
+	text-decoration none
+	color blue
+
+.return_link
+	display block
+	text-align center
+	padding 10px 0px
+
+.ask_block
+	text-align center
+	padding 10px
+
+.ask_text
+	text-align center
+	margin 0px
+	padding 5px
+
+.ask_link
+	padding 5px
+	margin 0px
+	color blue
+	font-size 16px
+	&:hover
+		color dark_blue
+
+#menus
+	float left
+	width 100%
+	margin 10px 0px
+	.menu
+		float left
+		width 48%
+		padding 5px 1%
+		font-size f3
+		color white
+		background blue
+		text-align center
+		&.used
+			background dark_blue
+
+.filters
+	float left
+	width 100%
+	margin 10px 0px
+	.filter
+		float left
+		background blue
+		color white
+		font-size f2
+		padding 5px
+		text-align center
+		&.used
+			background dark_blue
+
+.res_block
+	padding 10px
+
+.res_text
+	display block
+	margin 0px
+	padding 5px
+	span
+		font-weight bold
+
+.success
+	background salmon
+	font-size 40px
+	text-align center
+	padding 10px
+	margin 10px 0px
+	color white
+
+@keyframes show
+	0%
+		opacity 0
+		transform scale(0.5)
+	70%
+		transform scale(1.02)
+	100%
+		opacity 1
+		transform scale(1)
+
+
+@-webkit-keyframes show
+	0%
+		opacity 0
+		transform scale(0.5)
+	70%
+		transform scale(1.02)
+	100%
+		opacity 1
+		transform scale(1)
+
+/*----*/
+
+@keyframes hide
+	0%
+		opacity 1
+		transform scale(1)
+	100%
+		opacity 0
+		transform scale(0.5)
+
+@-webkit-keyframes hide
+	0%
+		opacity 1
+		transform scale(1)
+	100%
+		opacity 0
+		transform scale(0.5)
+
+@keyframes ok_c
+	0%
+		opacity 0
+		transform scale(0.5)
+	70%
+		transform scale(1.02)
+	100%
+		opacity 1
+		transform scale(1)
+
+@-webkit-keyframes ok_c
+	0%
+		opacity 0
+		transform scale(0.5)
+	70%
+		transform scale(1.02)
+	100%
+		opacity 1
+		transform scale(1)
+
+
+
+
+/*----*/
+
+@keyframes rotar
+	0%
+		transform rotateY(0deg)
+	100%
+		transform rotateY(90deg)
+
+@-webkit-keyframes rotar
+	0%
+		transform rotateY(0deg)
+	100%
+		transform rotateY(90deg)
+

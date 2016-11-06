@@ -1,0 +1,140 @@
+/*Fuentes------------------*/
+
+body,html
+	height 100%
+
+
+/*------------------Fuentes*/
+
+
+
+/*Colores------------------*/
+
+blue = #5174b6
+dark_blue = #244b88
+light_blue = #3498db
+green = #21af18
+light_green = #3db236
+dark_grey = #2B2B2B
+
+salmon = #ff4343
+salmon_dark = #ff1c43
+amarillo = #fcee21
+cyan = #1bc7ef
+cyan_bold = #00bfd0
+gray = #efefef
+dark = #1e1e1d
+white = #ffffff
+
+/*------------------Colores*/
+
+
+
+/*font sizes------------------*/
+
+f1 = 12px
+f2 = 14px
+f3 = 16px
+f4 = 20px
+f5 = 24px
+f6 = 30px
+f7 = 32px
+f8 = 36px
+f9 = 38px
+f10 = 40px
+
+/*------------------font sizes*/
+
+
+
+
+/*basic--------------------*/
+
+body
+	margin 0px
+	font-family 'Arial'
+
+html
+	height 100%
+
+img
+	border 0px
+a
+	text-decoration none
+
+.hide
+	display	none
+
+.f_left
+	float left
+
+.f_right 
+	float right
+
+.block-80
+	float left
+	width 80%
+	margin 0px 10%
+
+@mixin border-radius($radius)
+	-webkit-border-radius $radius
+	-moz-border-radius $radius
+	-ms-border-radius $radius
+	border-radius $radius
+
+@mixin shadow()
+	-webkit-box-shadow 6px 6px 5px 0px rgba(50, 50, 50, 0.75)
+	-moz-box-shadow    6px 6px 5px 0px rgba(50, 50, 50, 0.75)
+	box-shadow         6px 6px 5px 0px rgba(50, 50, 50, 0.75)
+
+#general, #content
+	height 100%
+
+.relative
+	position relative
+
+/*--------------------basic*/
+
+
+
+/*menus--------------------*/
+
+.top-menu
+	z-index 10
+
+/*--------------------menus*/
+
+
+
+/*forms--------------------*/
+
+.form-field
+	width 96%
+	border 1px solid light
+	color light
+	margin 5px 0px
+	padding 5px 2%
+	font-weight 300
+
+.form-area
+	width 96%
+	border 1px solid light
+	color light
+	margin 5px 0px
+	padding 5px 2%
+	font-weight 300
+
+/*--------------------forms*/
+
+
+
+/*ini----------------------*/
+@import 'ini.styl'
+/*----------------------ini*/
+
+
+
+
+/*Medias-------------------*/
+@import 'medias.styl'
+/*-------------------Medias*/
